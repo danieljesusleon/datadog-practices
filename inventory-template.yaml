@@ -1,0 +1,16 @@
+---
+dev:
+  hosts:
+    hostname_or_ipaddress:
+      ansible_user: "{{ ansible_user}}"
+      ansible_ssh_private_key_file: /path_to_key
+qa:
+  hosts:
+    hostname_or_ipaddress:
+      ansible_user: "{{ ansible_user }}"
+      ansible_ssh_private_key_file: /path_to_key
+prod:
+  hosts:
+    hostname_or_ipaddress:
+      ansible_user: "{{ ansible_user }}"
+      ansible_ssh_private_key_file: /path_to_key
